@@ -1,0 +1,151 @@
+body {
+    margin:0;
+    padding:0;
+    background:#E9F1F7;
+}
+
+.nombre {
+    width: 100%;
+    height: 300px;
+    background: #D1FFD7;
+    transform: skewY(5deg);
+
+}
+
+.nombre .content{
+    width: 50%;
+    height: 50%;
+    position:absolute;
+    left: 25%;
+    
+}
+
+.nombre .content .P1{
+    color: #59A5D8;
+    font-family: 'Poor+Story', cursive;
+    font-weight: bolder;
+    font-size: 65px;
+    margin-bottom: 0;
+}
+
+.nombre .content .P2{
+    color: #59A5D8;
+    font-family: 'Poor Story', cursive;
+    font-size: 35px;
+    margin-top: 0;
+    margin-bottom: 0;
+    
+}
+
+.nombre .img{
+    position: absolute;
+    top:18%;
+    right: 5%;
+    width: 180px;
+    height: 180px;
+    border-radius: 100%;
+    transform: skewY(5deg);
+    overflow:hidden;
+}
+
+.nombre .img img{
+   width: 147px;
+   height: 196px;
+}
+
+.Infor{
+    width: 90%;
+    height: auto;
+    background: #59A5D8;
+    margin:5% auto;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+
+.Infor .Secciontitulo{
+    color:white;
+    font-family: 'Poor Story', cursive;
+    font-size: xx-large;
+    text-align: center;
+    font-weight: bolder;
+    border-bottom: 2px white solid;
+}
+
+
+.Infor .tituloinfo{
+   
+    font-family: 'Poor Story', cursive;
+    font-weight: bolder;
+    font-size: large;
+    display: inline;
+    margin-right: 20px;
+
+}
+
+.Infor .informacion{
+    
+    font-family: 'Poor Story', cursive;
+    font-weight: normal;
+    font-size: large;
+    display: inline;
+}
+
+
+.footer-style {
+    padding-top: 1%;
+    background-color: #2C3E50;
+}
+footer {
+  color: white;
+}
+
+h3{
+    text-align: center;
+    font-size: 48px;
+}
+
+.footer-style {
+    padding-top: 1%;
+    background-color: #2C3E50;
+}
+footer {
+  color: white;
+}
+footer h3 {
+  margin-bottom: 1%;
+    font-weight: 1%;
+}
+footer .footer-above {
+  padding-top: 1%;
+  background-color: #2C3E50;
+}
+footer .footer-col {
+  margin-bottom: 1%;
+}
+footer .footer-below {
+  padding: 1%;
+  background-color: #233140;
+}
+
+
+
+#J{
+               
+    border: #fff 10px;
+   border-color: transparent;
+   background-color: #1ABC9C;
+display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Verdana, sans-serif;
+   
+    }
+    #J:hover{
+        background-color:  #fff;
+        cursor: pointer;
+        
+    }
+
